@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS1/formswmil.css" />
+    <link rel="stylesheet" href="CSS1/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"
+    />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form>
+      <div>
+        <label for="name">Name</label>
+        <input id="name" type="text" />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input id="email" type="email" />
+      </div>
+      <label for="countr">Country of Residency</label>
+      <input type="text" list="countries" autocomplete="off" />
+      <datalist id="countries">
+        <option>Peru</option>
+        <option>United States</option>
+        <option>China</option>
+        <option>Ecuador</option>
+        <option>Hola</option>
+      </datalist>
+      <label for="password">Password</label>
+      <input type="password" />
+      <label for="date">Date</label>
+      <input type="date" />
+      <label for="phonenumber">Phone Number</label>
+      <input type="number" />
+      <label for="Comment">Comment</label>
+      <textarea
+        type="Comment"
+        placeholder="Insert your comment here"
+        cols="30"
+        rows="10"
+      ></textarea>
+      <select>
+        <option>Select a Course...</option>
+        <optgroup label="Front-end Courses">
+          <option value="1">HTML</option>
+          <option value="2">CSS</option>
+          <option value="3">JavaScript</option>
+        </optgroup>
+        <optgroup label="Back-end Courses">
+          <option value="1">Node.js</option>
+          <option value="2">ASP.NET</option>
+          <option value="3">Django</option>
+        </optgroup>
+        <div>
+          <input type="checkbox" id="front-end" />
+          <label class="label-inline" for="front-end">Front-end</label>
+        </div>
+        <div>
+          <input type="checkbox" id="back-end" />
+          <label class="label-inline" for="back-end">Back-end</label>
+        </div>
+        <br />
+        <label for="membership">Membership Status</label>
+        <div>
+          <input type="radio" name="membership" id="gold" />
+          <label for="gold" class="label-inline">Gold</label>
+        </div>
+        <div>
+          <input type="radio" name="membership" id="silver" />
+          <label for="silver" class="label-inline">Silver</label>
+        </div>
+        <input type="range" min="0" max="100" value="90" />
+        <br />
+      </select>
+      <button type="submit">Register</button>
+      <button type="reset">Clear</button>
+      <div>
+        <a class="main" href="/index2.html">Home</a>
+      </div>
+    </form>
+  </body>
+</html>

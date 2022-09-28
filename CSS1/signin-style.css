@@ -1,0 +1,26 @@
+body{background-color:#f5f5f5;
+display: flex; 
+align-items: center;
+justify-content: center;    
+font-size: 1.6rem;
+height: 100vh;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 1.6rem;}
+
+.form-group {    max-width: 250px;
+    text-align: center;
+    width: 100%;}
+
+.i-1{margin-bottom: 2px;}
+
+.SIB-1 {background-color: cornflowerblue;
+
+border-radius: 20px;
+cursor:pointer;
+border: 0;
+width: 250px;}
+
+.signin {font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 500;
+font-size: 3rem;}
+

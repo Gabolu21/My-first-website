@@ -1,0 +1,25 @@
+html { font-size: 62.5%;}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+}
+
+.container {border: 3px black solid;
+background: #2a2138;}
+
+.box {color: rgb(150, 146, 146);
+padding: 4px 2px 3px;}
+
+    .box:hover, .site_icon {background-color: #1e172a;
+color: white;
+}
+
+a {text-decoration: none;
+    color: rgb(150, 146, 146)}
+    a:hover {color: white}
+ 
+ul {
+    list-style: none;
+    padding: 0;
+}

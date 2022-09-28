@@ -1,0 +1,78 @@
+body {
+ align-items: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ height: 100vh;
+}
+.container1 {perspective: 200px;}
+
+.box1 {width: 100px;
+height: 100px;
+background-color: gold;
+text-align: center;  transition: 2s;}
+
+.box2 {width: 100px;
+height: 100px;
+background-color: silver;
+text-align: center;  transition: 2s;
+}
+.box3 {width: 100px;
+    height: 100px;
+    background-color: rgb(156, 14, 14);
+    text-align: center;
+    color: white;
+    }
+
+.box1:hover {
+    transform-origin: 0 100%;
+    transform: rotatey(90deg);
+  
+    background-color: blue;
+    }
+.box2:hover {transform: rotate(-45deg);
+    background-color: blueviolet;}
+
+    @keyframes pop {
+        0% {transform: scale(1);}
+        25%{transform: scale(1.5);}
+        50%{background-color: blueviolet;}
+        70%{transform: rotate(45deg);}
+        100%{transform: rotate(-360deg);}
+    }
+    @keyframes popup{
+        0%{transform: rotate(-20deg);}
+    }
+.box3 {animation-name: pop;
+animation-duration: 4s;
+animation-delay: 0.3s;}
+
+.container2 {rotate: -5deg;
+    border-radius: 30px;
+    box-shadow: 0 20px 30px #636060;
+    background-color: rgb(201, 239, 225);
+}
+.container2:hover {transform: rotate(5deg);
+transition: 1s;
+}
+
+.box4 {width: 310px;
+height: 90px;
+background-color: rgb(255, 215, 141);
+border-top-left-radius:20px ;
+border-top-right-radius:20px ;
+overflow: hidden;
+padding:10px;
+align-content: center;}
+
+img {width: 60px;
+    height: 60px;
+border-radius: 100px;
+padding: 10px;}
+.picture{display: inline-flex;
+}
+
+.box5{display:inline-flex;
+width: 200px;
+height: 20px;
+transform: translateY(-40px);}
