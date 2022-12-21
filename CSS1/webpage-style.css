@@ -397,3 +397,33 @@ transition: all 0.3s;}
 
 .collapsible--expanded .collapsible__content {max-height: 100vh;
 opacity: 1;}
+
+/*Blocks*/
+
+.block {
+    --padding-vertical: 6rem;
+    padding: var(--padding-vertical) 2rem;
+    border: 2px solid red;
+}
+
+.block__heading{
+    margin-top: 0;
+}
+
+.block--dark {
+    padding: 6rem 2rem;
+    background: black;
+}
+
+.block--dark .block__heading {
+    color: white;}
+
+.block--skewed-right {
+    padding-bottom: calc(var(--padding-vertical) + 4rem);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+}
+
+.block__header {text-align: center;}
+
+.cotainer { max-width: 1140;
+margin: 0 auto;}
