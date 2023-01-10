@@ -533,3 +533,23 @@ margin: 0 auto;
     }
     
 }
+
+/*Plan Block*/
+
+.plan_block .plan { 
+    box-shadow: 0 0 30px 20px #e6ebee;
+        transition: .5s;
+}
+.plan:hover {
+    transform:scale(1.05) 
+}
+@media  screen and (min-width: 768px){
+
+.plan_block { display: flex;}
+
+.plan_block .plan {
+    max-width:400px;
+}
+
+}
+    
